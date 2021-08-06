@@ -1,16 +1,81 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
-* {
-  box-sizing: border-box;
-}
+@layer components {
+    .navbarND{
+      @apply  relative bg-blue-x z-10 overscroll-none ;
+    }
+
+    .navbarSD{
+        @apply relative bg-blue-x shadow-lg z-10 overscroll-none;
+      }
+
+    .para{
+      @apply font-mainText text-slate tracking-wide font-thin text-[1.1rem] md:text-xl;
+    }
+
+    .progress-section{
+      @apply fixed sm:hidden right-[1%] top-[80%] w-[60px] h-[30%] md:flex justify-between ;
+    }
+
+    .progress-bar-wrap{
+      @apply relative w-[2px] border-[1px] border-slate  overflow-hidden bg-lightest-slate;
+    }
+
+    .main-btn{
+      @apply whitespace-nowrap p-3 md:p-4 cursor-pointer items-center justify-center font-greenText border border-green-x rounded-md shadow-sm text-sm font-normal text-green-x  hover:bg-green-tint;
+    }
+
+    .icon{
+      @apply w-5 hover:text-green-x hover:transform hover:translate-y-[-8%];
+    }
+
+    .list-head{
+      @apply px-2 md:px-6 py-4 text-[1.1rem] md:text-[1.20rem] font-medium md:font-semibold font-mainText text-left leading-4 text-slate tracking-wider;
+    }
+
+    .tab-item{
+      @apply p-3  tracking-tight font-greenText  text-sm md:text-sm text-slate hover:bg-light-blue ;
+    }
+
+    .tab-active{
+      @apply border-b-2 md:border-l-2 border-green-x   bg-light-blue text-green-x md:border-b-0;
+    }
+
+    .content-active{
+      @apply block;
+    }
+    
+
+
+
+    /* .list-item{
+      @apply px-2 md:px-6 md:py-4 whitespace-no-wrap;
+    } */
+    
+  }
+
+
+  @layer base {
+    @font-face {
+      font-family: Calibre;
+      font-weight: 600;
+      src: url(/font/calibre/CalibreBold.otf) format("otf");
+    }
+  }
+
+  @layer utilities {
+    @variants focus {
+      .filter-navy {
+        filter: invert(12%) sepia(36%) saturate(1057%) hue-rotate(177deg) brightness(94%) contrast(98%);
+      }
+      
+    }
+  }
+
+  
+  
+  

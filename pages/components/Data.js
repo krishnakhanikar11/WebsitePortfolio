@@ -1,0 +1,78 @@
+const data = [
+    {
+    gitLink:'https://github.com/krishnakhanikar11/Note-Taking-App',
+    projectLink:'#',
+    projectTitle:'Note taking app using React and Hooks',
+    projectDesc:'Building a note taking app with a custom features using React hooks. Styled with pure CSS. ',
+    toolOne:'React.js',
+    toolTwo:'HTML',
+    toolThree:'CSS',
+    toolFour:'Hooks'},
+
+    {gitLink:'https://github.com/krishnakhanikar11/Netflix-Clone',
+    projectLink:'https://netflix-cloneind.herokuapp.com/',
+    projectTitle:'Netflix Landing page clone using HTML CSS JS',
+    projectDesc:'Netflix Landing page clone built with fully responsive across various devices with custom Table.',
+    toolOne:'HTML',
+    toolTwo:'CSS',
+    toolThree:'JS',
+    toolFour:''},
+
+    {gitLink:'https://github.com/krishnakhanikar11/Memory-Flash-Card-',
+    projectLink:'#',
+    projectTitle:'Memory Flash Card GUI using Python',
+    projectDesc:"Memory Flash Card using Python. It is the easiest way to practice and master what you're learning.",
+    toolOne:'Python',
+    toolTwo:'Firebase',
+    toolThree:'NextJS',
+    toolFour:''},
+
+    {gitLink:'https://github.com/krishnakhanikar11/firstwebsite',
+    projectLink:'https://dolla-banking.herokuapp.com/',
+    projectTitle:'Huddle Landing Page using HTML & CSS',
+    projectDesc:'Huddle re-imagines the way we build communities. You have a voice, but so does your audience.',
+    toolOne:'HTML',
+    toolTwo:'CSS',
+    toolThree:'Bootstrap',
+    toolFour:''},
+
+    {gitLink:'https://github.com/krishnakhanikar11/Workout-tracker-',
+    projectLink:'#',
+    projectTitle:'Workout Tracker using Natural Language/Google sheets',
+    projectDesc:'Track all your custom workout plans. Build using with the help of Natural Language & Google sheets.',
+    toolOne:'Python',
+    toolTwo:'Natural Language',
+    toolThree:'API',
+    toolFour:''},
+
+    {gitLink:'https://github.com/krishnakhanikar11/dolla',
+    projectLink:'https://dol11.herokuapp.com/',
+    projectTitle:'DOLLA Virtual Banking landing Page',
+    projectDesc:'Building a custom site for a random personal Project using HTML, CSS and bootstrap. ',
+    toolOne:'HTML',
+    toolTwo:'CSS',
+    toolThree:'Bootstrap',
+    toolFour:''},
+
+    {gitLink:'https://github.com/krishnakhanikar11/To-Do-WebApp',
+    projectLink:'#',
+    projectTitle:'TO-DO web app build with React',
+    projectDesc:'Plan, and collaborate on tasks and projects with To-do web app across multiple devices',
+    toolOne:'HTML',
+    toolTwo:'CSS',
+    toolThree:'React.js',
+    toolFour:''},
+
+    {gitLink:'https://github.com/krishnakhanikar11/Stock-Trading-News-Alert',
+    projectLink:'#',
+    projectTitle:'Stock Trading News alert using Python',
+    projectDesc:'Building a custom multisite compatible WordPress plugin to build global search with Algolia',
+    toolOne:'Python',
+    toolTwo:'API',
+    toolThree:'Twillio',
+    toolFour:''},
+
+    
+]
+
+export default data
