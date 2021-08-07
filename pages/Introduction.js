@@ -26,7 +26,7 @@ import Image from 'next/image'
         </Fade>
         </div>
         
-    <div className=' absolute md:h-screen md:w-full z-[-2] md:z-0'>
+    <div className=' absolute md:h-screen md:w-full z-0'>
         <Particles params={{
             "particles": {
                 "number": {
