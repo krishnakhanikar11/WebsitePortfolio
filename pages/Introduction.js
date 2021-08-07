@@ -10,7 +10,7 @@ import Image from 'next/image'
        <Fade Top delay={500}>
             <div className='flex relative flex-col justify-items-center items-start  '>
                 <h3 className='font-greenText text-sm md:text-base  text-green-x font-medium'>Hi, my name is</h3>
-                <h1 className='font-mainText pb-2 pt-4 text-4xl md:text-7xl text-lightest-slate font-medium md:pb-2 md:pt-6'>Krishna Khanikar.</h1>
+                <h1 className='font-mainText pb-2 pt-4 text-[2.5rem] md:text-7xl text-lightest-slate font-medium md:pb-2 md:pt-6'>Krishna Khanikar.</h1>
                 <h1 className='font-mainText text-4xl leading-9 pb-3 md:text-7xl text-light-slate font-medium md:pb-4'>I build things for the web.</h1>
                 <div className='flex sm:w-full md:w-[80%]'>
                     <p className='para'>I am a self taught Developer and Product designer with experience in creating digital interface. I mainly focus on telling stories visually through enjoyable and meaningful experience at<a className=' text-green-x'> Buildnetic.</a> </p>

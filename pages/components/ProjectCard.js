@@ -5,8 +5,8 @@ import Fade from 'react-reveal/Fade';
 function ProjectCard({gitLink,projectLink,projectTitle,projectDesc,toolOne,toolTwo,toolThree,toolFour}) {
     return (
         <Fade Top delay={200}>
-        <div className='w-full h-[19rem] cursor-pointer bg-navy  rounded-sm shadow-xl '>
-                        <div className='flex  p-5 items-center  '>
+        <div className='w-full  cursor-pointer bg-navy  rounded-sm shadow-xl '>
+                        <div className='flex p-5 items-center  '>
 
                             <div className='flex w-1/2 float-left'>
                                 
@@ -44,7 +44,7 @@ function ProjectCard({gitLink,projectLink,projectTitle,projectDesc,toolOne,toolT
                             </div>
                         
                         </div>
-                            <div className='pl-5 pr-5 pt-3  space-y-3'>
+                            <div className='pl-5 pr-5 pt-3  space-y-3 pb-5'>
                                 <h5 className='hover:text-green-x font-mainText text-lightest-slate text-[21px] font-medium leading-6 tracking-wide cursor-pointer'>
                                 <a href='#'>{projectTitle}</a></h5>
                                 <p className='para'>

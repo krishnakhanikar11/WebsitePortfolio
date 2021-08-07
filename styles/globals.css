@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
 
 @layer components {
     .navbarND{
