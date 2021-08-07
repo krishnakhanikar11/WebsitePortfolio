@@ -5,7 +5,7 @@ function Foot() {
                         <div className='flex items-center justify-center flex-col  space-y-3 md:space-y-5 text-center'>
                         <div className='md:hidden grid grid-cols-3 grid-rows-1 w-[50%] md:w-[10%] place-items-center'>
                                 <div>
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/krishna.design/?hl=en" rel="noreferrer" target="_blank">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             role="img"
@@ -26,7 +26,7 @@ function Foot() {
                                 </div>
 
                                 <div>
-                                    <a href="#">
+                                    <a href="https://github.com/krishnakhanikar11" rel="noreferrer" target="_blank">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         role="img"
@@ -45,7 +45,7 @@ function Foot() {
                                 </div>
 
                                 <div>
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/krishnakhanikar/" rel="noreferrer" target="_blank">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         role="img"

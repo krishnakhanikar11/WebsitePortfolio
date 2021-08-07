@@ -54,7 +54,7 @@ function AboutMe() {
                     </div>
                     
                     <Fade Top delay={500}>
-                    <div className='relative hidden md:filter  md:h-[40%] md:w-[30%] md:flex items-start hover:opacity-70 '>
+                    <div className='hidden md:filter  md:h-[40%] md:w-[30%] md:flex items-start hover:opacity-70'>
                     
                         <Image className='rounded-xl relative hover:transform hover:translate-y-[-1%]' src='/me.png ' width="400" height="400" />
                         

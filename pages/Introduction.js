@@ -13,7 +13,7 @@ import Image from 'next/image'
                 <h1 className='font-mainText pb-2 pt-4 text-4xl md:text-7xl text-lightest-slate font-medium md:pb-2 md:pt-6'>Krishna Khanikar.</h1>
                 <h1 className='font-mainText text-4xl leading-9 pb-3 md:text-7xl text-light-slate font-medium md:pb-4'>I build things for the web.</h1>
                 <div className='flex sm:w-full md:w-[80%]'>
-                    <p className='para'>I am a self taught Developer and Product designer with experience in creating digital interface. I mainly focus on telling stories visually through enjoyble and meaningful experience at<a className=' text-green-x'> Buildnetic.</a> </p>
+                    <p className='para'>I am a self taught Developer and Product designer with experience in creating digital interface. I mainly focus on telling stories visually through enjoyable and meaningful experience at<a className=' text-green-x'> Buildnetic.</a> </p>
                 </div>
                 <div className="flex items-center pt-8 relative"> <a rel="noreferrer" href='mailto:krishnakhanikarkhanikar.com' className="main-btn"> Get in Touch </a> </div>
                
