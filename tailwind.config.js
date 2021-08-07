@@ -18,7 +18,8 @@ module.exports = {
       },
       fontFamily:{
         greenText : ['Fira Code'],
-        mainText : ['Calibre']
+        mainText : [`Calibre, "San Francisco", "SF Pro Text", 
+        -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif`]
       }, 
     }
   },
