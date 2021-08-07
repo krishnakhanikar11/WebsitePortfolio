@@ -8,7 +8,7 @@ function Gallery() {
             </div>
 
             <div className='hidden md:grid grid-cols-1 grid-rows-1 fixed  right-[-2.25rem] top-[57%] transform rotate-90'>
-                <a href='mailto:krishnakhanikarkhanikar.com' className='text-slate text-xs font-greenText hover:text-green-x '>krishna.khanikar2020@gmail.com</a>
+                <a href='mailto:krishnakhanikarkhanikar@gmail.com' className='text-slate text-xs font-greenText hover:text-green-x '>krishna.khanikar2020@gmail.com</a>
             </div>
             </div>
 

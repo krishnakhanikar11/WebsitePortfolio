@@ -17,7 +17,7 @@ function Contact() {
                     My inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!</p>    
                     
                     <div className="flex items-center pt-8 ">
-                        <a href='mailto:krishnakhanikarkhanikar.com' className="main-btn">Say Hello </a> 
+                        <a href='mailto:krishnakhanikarkhanikar@gmail.com' className="main-btn">Say Hello </a> 
                     
                     </div>
 
