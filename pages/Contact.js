@@ -13,7 +13,7 @@ function Contact() {
                         <h1 >Get in touch</h1>
                     </div>
                     
-                    <p className="flex items-center justify-items-center text-center w-full md:w-[55%] text-gray-400 font-mainText text-xl font-thin leading-6">
+                    <p className="flex items-center justify-items-center text-center w-full md:w-[55%] para">
                     My inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!</p>    
                     
                     <div className="flex items-center pt-8 ">

@@ -44,7 +44,7 @@ function ProjectCard({gitLink,projectLink,projectTitle,projectDesc,toolOne,toolT
                             </div>
                         
                         </div>
-                            <div className='pl-5 pr-5 pt-3 pw-[98%] space-y-3'>
+                            <div className='pl-5 pr-5 pt-3  space-y-3'>
                                 <h5 className='hover:text-green-x font-mainText text-lightest-slate text-[21px] font-medium leading-6 tracking-wide cursor-pointer'>
                                 <a href='#'>{projectTitle}</a></h5>
                                 <p className='para'>
