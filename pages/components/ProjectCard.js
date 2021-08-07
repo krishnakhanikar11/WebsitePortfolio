@@ -6,9 +6,9 @@ function ProjectCard({gitLink,projectLink,projectTitle,projectDesc,toolOne,toolT
     return (
         <Fade Top delay={200}>
         <div className='w-full cursor-pointer bg-navy  rounded-sm shadow-xl '>
-                        <div className='flex pl-5 pr-5 items-center '>
+                        <div className='flex pl-5 pr-5 pt-4 pb-3  items-center '>
 
-                            <div className='flex w-1/2 float-left'>
+                            <div className='flex w-1/2 float-left '>
                                 
                                 <svg xmlns="http://www.w3.org/2000/svg" 
                                     className="text-green-x w-12 " 
