@@ -15,7 +15,7 @@ import Image from 'next/image'
                 <div className='flex sm:w-full md:w-[85%]'>
                     <p className='para'>I am a self taught Developer and Product designer with experience in creating digital interface. I mainly focus on telling stories visually through enjoyable and meaningful experience at<a href='https://buildnetic.com/' rel="noreferrer"  className=' text-green-x'> Buildnetic.</a> </p>
                 </div>
-                <div className="flex items-center pt-8 relative"> <a rel="noreferrer" href='mailto:krishnakhanikarkhanikar.com' className="main-btn"> Get in Touch </a> </div>
+                <div className="flex items-center pt-8 relative"> <a rel="noreferrer" href='mailto:krishnakhanikarkhanikar.com' className="main-btn"> View More </a> </div>
                
             </div>
             <div className=' hidden xl:flex flex-col justify-self-start m-44 z-10'>
