@@ -158,7 +158,7 @@ function Header() {
                       ))}
                       <div className="flex items-center">
                 <a
-                  href='#'
+                  href='/ResumeKrish.pdf' rel="noreferrer"
                   className="whitespace-nowrap p-2 mx-3  items-center justify-center font-greenText border border-green-x rounded-md shadow-sm text-sm font-normal text-green-x bg-transparent hover:bg-green-tint"
                 >
                   Resume

@@ -5,15 +5,15 @@ import Image from 'next/image'
 
 
  function Introduction() { 
-     return ( <div className=" flex h-screen bg-blue-x z-0 " >
-     <div className='flex  justify-items-center  px-6 pt-20 md:pl-56 md:pt-20 z-5'>
+     return ( <div className="flex h-screen bg-blue-x z-0 " >
+     <div className='flex relative  justify-items-center  px-6 pt-20 md:pl-56 md:pt-20 z-5 '>
        <Fade Top delay={500}>
-            <div className='flex relative flex-col justify-items-center items-start  '>
+            <div className='flex flex-col justify-items-center items-start  '>
                 <h3 className='font-greenText text-sm md:text-base  text-green-x font-medium'>Hi, my name is</h3>
-                <h1 className='font-mainText pb-2 pt-4 text-[2.5rem] md:text-7xl text-lightest-slate font-medium md:pb-2 md:pt-6'>Krishna Khanikar.</h1>
+                <h1 className='font-mainText  pt-4 text-[2.5rem] md:text-7xl text-lightest-slate font-medium  md:pt-6'>Krishna Khanikar.</h1>
                 <h1 className='font-mainText text-4xl leading-9 pb-3 md:text-7xl text-light-slate font-medium md:pb-4'>I build things for the web.</h1>
-                <div className='flex sm:w-full md:w-[80%]'>
-                    <p className='para'>I am a self taught Developer and Product designer with experience in creating digital interface. I mainly focus on telling stories visually through enjoyable and meaningful experience at<a className=' text-green-x'> Buildnetic.</a> </p>
+                <div className='flex sm:w-full md:w-[85%]'>
+                    <p className='para'>I am a self taught Developer and Product designer with experience in creating digital interface. I mainly focus on telling stories visually through enjoyable and meaningful experience at<a href='https://buildnetic.com/' rel="noreferrer"  className=' text-green-x'> Buildnetic.</a> </p>
                 </div>
                 <div className="flex items-center pt-8 relative"> <a rel="noreferrer" href='mailto:krishnakhanikarkhanikar.com' className="main-btn"> Get in Touch </a> </div>
                
@@ -26,7 +26,7 @@ import Image from 'next/image'
         </Fade>
         </div>
         
-    <div className=' absolute md:h-screen md:w-full z-[0]'>
+    <div className=' absolute md:h-screen md:w-full z-[-2] md:z-0'>
         <Particles params={{
             "particles": {
                 "number": {

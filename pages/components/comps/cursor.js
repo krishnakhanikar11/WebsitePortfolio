@@ -20,7 +20,7 @@ export default function App() {
     }, 1000);
   }, [i]);
   return (
-    <div >
+    <div className="hidden md:flex" >
       <Cursor hollow color={colors[i]} duration={0.8} size={45} />
     </div>
   );
