@@ -88,6 +88,7 @@ function Archives() {
                         </thead>
                         {ArchiveProject.map((item) => (
                             <ArchivesList 
+                                key ={item.title}
                                 year={item.year}
                                 title={item.title}
                                 buildWith ={item.madeWith}

@@ -1,6 +1,7 @@
 import Particles from 'react-particles-js';
 import Fade from 'react-reveal/Fade';
 import Parallax from 'react-rellax'
+import Image from 'next/image'
 
 
  function Introduction() { 
@@ -14,11 +15,11 @@ import Parallax from 'react-rellax'
                 <div className='flex sm:w-full md:w-[80%]'>
                     <p className='para'>I am a self taught Developer and Product designer with experience in creating digital interface. I mainly focus on telling stories visually through enjoyble and meaningful experience at<a className=' text-green-x'> Buildnetic.</a> </p>
                 </div>
-                <div className="flex items-center pt-8 relative"> <a href='mailto:krishnakhanikarkhanikar.com' className="main-btn"> Get in Touch </a> </div>
+                <div className="flex items-center pt-8 relative"> <a rel="noreferrer" href='mailto:krishnakhanikarkhanikar.com' className="main-btn"> Get in Touch </a> </div>
                
             </div>
             <div className=' hidden xl:flex flex-col justify-self-start m-44 z-10'>
-                <Parallax speed={-4}><img src='./satellite4.svg' className='w-52 '></img></Parallax>
+                <Parallax speed={-4}><Image src='/satellite4.svg' width={240} height={240} /></Parallax>
                 
             </div>
             

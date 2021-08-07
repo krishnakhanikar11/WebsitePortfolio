@@ -1,6 +1,6 @@
 import Fade from 'react-reveal/Fade';
 import Skill from './components/Skill'
-
+import Image from 'next/image'
 
 
 
@@ -43,18 +43,20 @@ function AboutMe() {
                         <Fade Top delay={500}>
                         <div className=' w-full md:w-[80%]'>
                             <p className='para pb-5 pt-10'>Hello! My name is Krishna, Front-developer and Designer based in New Delhi. My interest in Web development started when I got to know about the inspect element where we can change anything on the website with just a click. This taught me the endless possibilities of what we can build on the internet.</p>
-                            <p className='para pb-5'>Fast-forward to today, and I've had the privilege of working at a <a href='https://buildnetic.com/' target='_blank' className='text-green-x '>consultancy agency,</a> and my own <a href='#' target='_blank' className='text-green-x '>Start-up,</a>.Currently I am Pre-final student, pursuing my majors in Electrical Engineering from  <a className='text-green-x' href='https://vit.ac.in/' target='_blank'>VIT, Vellore</a></p>
-                            <p className='para pb-5'>Here are a few technologies I've been working with recently:</p>
+                            <p className='para pb-5'>Fast-forward to today, and I&apos;ve had the privilege of working at a <a href='https://buildnetic.com/' target='_blank' className='text-green-x' rel="noreferrer">consultancy agency,</a> and my own <a href='#' target='_blank' rel="noreferrer" className='text-green-x '>Start-up,</a>.Currently I am Pre-final student, pursuing my majors in Electrical Engineering from  <a className='text-green-x' href='https://vit.ac.in/' target='_blank' rel="noreferrer">VIT, Vellore</a></p>
+                            <p className='para pb-5'>Here are a few technologies I&apos;ve been working with recently:</p>
                         </div>
                         <div className=' w-full md:w-1/2 grid grid-flow-col grid-cols-2 grid-rows-3 gap-4'> {skills.map((item) => (
-                            <Skill skill={item.skill}/> ) )} </div>
+                            <Skill 
+                            key={item.skill}
+                            skill={item.skill}/> ) )} </div>
                             </Fade>
                     </div>
                     
                     <Fade Top delay={500}>
                     <div className='relative hidden md:filter  md:h-[40%] md:w-[30%] md:flex items-start hover:opacity-70 '>
                     
-                        <img className='rounded-xl relative hover:transform hover:translate-y-[-1%]' src='./me.png ' width="400" height="400" />
+                        <Image className='rounded-xl relative hover:transform hover:translate-y-[-1%]' src='/me.png ' width="400" height="400" />
                         
                     </div>
                     </Fade>

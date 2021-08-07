@@ -32,14 +32,14 @@ function Experience() {
 
                     <Fade Top delay={300}>
                         <div className={toggleState === 1 ? 'content-active' : 'hidden'}>
-                            <h3 className='font-mainText text-lightest-slate text-[1.5rem]'>Developer<a href='https://deskcount.com/' target="_blank" className='text-green-x'> @ Deskcount</a></h3>
+                            <h3 className='font-mainText text-lightest-slate text-[1.5rem]'>Developer<a rel="noreferrer" href='https://deskcount.com/' target="_blank" className='text-green-x'> @ Deskcount</a></h3>
                             <p className='font-greenText tracking-tight text-slate text-sm'>Nov 2020 - August 2021</p>
 
                             <div className='mt-3 flex items-start'>
                             <span className='text-green-x font-greenText text-xl font-light mr-2' >▹</span><h3 className='font-mainText text-slate tracking-wide font-thin text-[1.1rem] md:text-xl'>Developed website and improved user experience, using Javascript, HTML5, AND CSS.</h3>
                             </div>
                             <div className='mt-3 flex items-start'>
-                            <span className='text-green-x font-greenText text-xl font-light mr-2' >▹</span><h3 className='font-mainText text-slate tracking-wide font-thin text-[1.1rem] md:text-xl'>Designed the UI/UX of the Deskcount's app which increased the overall downloads of the app.</h3>
+                            <span className='text-green-x font-greenText text-xl font-light mr-2' >▹</span><h3 className='font-mainText text-slate tracking-wide font-thin text-[1.1rem] md:text-xl'>Designed the UI/UX of the Deskcount&apos;s app which increased the overall downloads of the app.</h3>
                             </div>
                             <div className='mt-3 flex items-start'>
                             <span className='text-green-x font-greenText text-xl font-light mr-2' >▹</span><h3 className='font-mainText text-slate tracking-wide font-thin text-[1.1rem] md:text-xl'>Through A/B testing of different components and combination improved customer conversion by 12%.</h3>
@@ -49,7 +49,7 @@ function Experience() {
 
                         <Fade Top delay={300}>
                         <div className={toggleState === 2 ? 'content-active' : 'hidden'}>
-                            <h3 className='font-mainText text-lightest-slate text-[1.5rem]'>Product Designer<a href='https://paycrunch.in/' className='text-green-x' target='_blank'> @ PayCrunch</a></h3>
+                            <h3 className='font-mainText text-lightest-slate text-[1.5rem]'>Product Designer<a rel="noreferrer" href='https://paycrunch.in/' className='text-green-x' target='_blank'> @ PayCrunch</a></h3>
                             <p className='font-greenText tracking-tight text-slate text-sm'>October 2020 - Present</p>
 
                             <div className='mt-3 flex items-start'>
@@ -66,11 +66,11 @@ function Experience() {
 
                         <Fade Top delay={300}>
                         <div className={toggleState === 3 ? 'content-active' : 'hidden'}>
-                            <h3 className='font-mainText text-lightest-slate text-[1.5rem]'>Product Developer<a href='https://buildnetic.com/'  className='text-green-x' target='_blank'> @ Buildnetic</a></h3>
+                            <h3 className='font-mainText text-lightest-slate text-[1.5rem]'>Product Developer<a rel="noreferrer" href='https://buildnetic.com/'  className='text-green-x' target='_blank'> @ Buildnetic</a></h3>
                             <p className='font-greenText tracking-tight text-slate text-sm'>June 2020 - Present</p>
 
                             <div className='mt-3 flex items-start'>
-                            <span className='text-green-x font-greenText text-xl font-light mr-2' >▹</span><h3 className='font-mainText text-slate tracking-wide font-thin text-[1.1rem] md:text-xl'>Worked with companies like Marks & Spencer and Acuver to review current products and provide design solutions to solve user's needs and business challenges.</h3>
+                            <span className='text-green-x font-greenText text-xl font-light mr-2' >▹</span><h3 className='font-mainText text-slate tracking-wide font-thin text-[1.1rem] md:text-xl'>Worked with companies like Marks & Spencer and Acuver to review current products and provide design solutions to solve user&apos;s needs and business challenges.</h3>
                             </div>
                             <div className='mt-3 flex items-start'>
                             <span className='text-green-x font-greenText text-xl font-light mr-2' >▹</span><h3 className='font-mainText text-slate tracking-wide font-thin text-[1.1rem] md:text-xl'>Designed a desktop dashboard for warehouse management for an internal client, incorporating user research and usability test findings.</h3>

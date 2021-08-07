@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import Link from 'next/link';
+import Image from 'next/image'
 
 import {
   MenuIcon,
@@ -65,11 +66,13 @@ function Header() {
                 <Link href='/'>
                 <a >
                   <span className="sr-only">Krishna Khanikar</span>
-                  <img
-                   
+                  <Image
+
                     className="h-10 w-auto sm:h-12"
-                    src="/logo_krishna.png/"
+                    src="/logo_krishna.png"
                     alt=""
+                    height={48}
+                    width={48}
             
                   />
                 </a>
@@ -86,10 +89,8 @@ function Header() {
 
               <Popover.Group as="nav" className="hidden md:flex space-x-10 ">
                 {solutions.map((item) => (
-                          <Link href={item.href}>
+                          <Link href={item.href} key={item.name}>
                             <a
-                            key={item.name}
-                            
                             className="m-3 p-3 flex items-center"
                             ><span className="ml-3 text-xs font-normal font-greenText text-green-x">{item.number}</span>
                             <span className="ml-3 text-sm font-normal font-greenText text-light-slate hover:text-green-x">{item.name}</span>
@@ -126,10 +127,13 @@ function Header() {
                 <div className="pt-5 pb-6 px-5">
                   <div className="flex items-center justify-between">
                     <div>
-                      <img
+                      <Image
                         className="h-8 w-auto"
-                        src="/logo_krishna.png/"
+                        src="/logo_krishna.png"
                         alt="Workflow"
+                        height={32}
+                        width={32}
+                        
                       />
                     </div>
                     <div className="-mr-2">

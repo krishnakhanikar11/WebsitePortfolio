@@ -14,7 +14,7 @@ function Gallery() {
 
             <div className='hidden md:grid grid-cols-1 grid-rows-3 fixed gap-5 left-[4.25%] top-[60%] z-100'>
                             <div>
-                                <a href="https://www.instagram.com/krishna.design/?hl=en" target="_blank">
+                                <a href="https://www.instagram.com/krishna.design/?hl=en" rel="noreferrer" target="_blank">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     role="img"
@@ -34,7 +34,7 @@ function Gallery() {
                                 </a>
                                 </div>
 
-                                <a href="https://github.com/krishnakhanikar11" target="_blank">
+                                <a href="https://github.com/krishnakhanikar11" rel="noreferrer" target="_blank">
                                  <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     role="img"
@@ -51,7 +51,7 @@ function Gallery() {
                                 </svg>
                                 </a>
 
-                                <a href="https://www.linkedin.com/in/krishnakhanikar/" target="_blank">
+                                <a href="https://www.linkedin.com/in/krishnakhanikar/" rel="noreferrer" target="_blank">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     role="img"

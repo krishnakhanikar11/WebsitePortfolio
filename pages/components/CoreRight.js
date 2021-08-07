@@ -1,5 +1,6 @@
 import { ExternalLinkIcon } from "@heroicons/react/outline";
 import Fade from 'react-reveal/Fade';
+import Image from 'next/image'
 
 function CoreRight({title,desc,src,link,linkExt,tool1,tool2,tool3,tool4}) {
     return (
@@ -44,7 +45,7 @@ function CoreRight({title,desc,src,link,linkExt,tool1,tool2,tool3,tool4}) {
             </div>
          </div>
          <div className="md:ml-[5] w-[0%]  md:w-[37%]  z-0 absolute md:right-[17%] ">
-            <img className=' rounded' src={src} alt="" />
+            <Image className=' rounded' src={src} alt="" width={530} height={315} />
          </div>
       </div>
       </Fade>
