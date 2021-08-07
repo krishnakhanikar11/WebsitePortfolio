@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 function ProjectCard({gitLink,projectLink,projectTitle,projectDesc,toolOne,toolTwo,toolThree,toolFour}) {
     return (
         <Fade Top delay={200}>
-        <div className='w-full h-[22rem] cursor-pointer bg-navy  rounded-sm shadow-xl '>
+        <div className='w-full h-[19rem] cursor-pointer bg-navy  rounded-sm shadow-xl '>
                         <div className='flex  p-5 items-center  '>
 
                             <div className='flex w-1/2 float-left'>
