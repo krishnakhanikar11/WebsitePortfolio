@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
     gitLink:'https://github.com/krishnakhanikar11/Note-Taking-App',
     projectLink:'#',
@@ -75,4 +75,3 @@ const data = [
     
 ]
 
-export default data

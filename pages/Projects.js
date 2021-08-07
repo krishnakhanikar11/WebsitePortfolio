@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import ProjectCard from './components/ProjectCard';
-import data from './components/Data';
+import {data} from './components/Data';
 import {useState} from 'react';
 
 
